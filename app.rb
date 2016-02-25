@@ -17,6 +17,6 @@ post '/blog/' do
   File.open('blogpost.html', 'w') do |f|
     f.write params['title']
     f.write params['description']
-    erb :blog
+    html :blog
   end
 end
