@@ -1,7 +1,7 @@
 
 
   file = File.new('blog.html', 'a')
-    file.write("<html> <head> <link rel = 'stylesheet' type = 'text/css' href = '/css/cssfile.css'> <title> Where's your favorite place to be ? </title> </head> <body>")
+    file.write("<html> <head> <link rel = 'stylesheet' type = 'text/css' href = '/css/cssfile.css'> <title> Blog </title> </head> <body>")
     loop = true
     while loop do
       puts "What will be the title of your post? "
