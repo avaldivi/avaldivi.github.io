@@ -10,7 +10,7 @@
       p = gets.chomp
       puts "Enter a URL Link that relates with your favorite place"
       img = gets.chomp
-      file.write("<h1> #{h1} </h1> <br> <p> #{p} </p> <br> <img src='#{img}' height='40' width='40'>")
+      file.write("<h1> #{h1} </h1> <br> <p> #{p} </p> <br> <img src='#{img}' height='40' width='40'/>")
       puts "Continue to write another post, or type 'no' to exit"
       again = gets.chomp
       if again == "no"
