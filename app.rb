@@ -11,7 +11,7 @@ post '/blog/' do
 end
 =end
 
-post '/blog/' do
+post '/blog.html/' do
   @title = params['title']
   @description = params['description']
   File.open('blogpost.html', 'w') do |f|
