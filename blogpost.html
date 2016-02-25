@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title> How to contact Adrianna </title>
+        <title> What's your favorite place? </title>
         <style>
             body
             {
@@ -11,6 +11,7 @@
                 display:inline;
                 margin-left:30px;
             }
+            
             
             .container {
                 margin: 0 auto;
@@ -41,7 +42,7 @@
     </head>
     <font face="monaco">
         <body>
-            <h1> (Contact); </h1>
+            <h1> (Blog); </h1>
                
                 <div class ='cssmenu'>
                         <ul>
@@ -54,26 +55,42 @@
                     </div>
                 
                 <div class = "container"> 
-                <h2> :: Let socialize! ::</h2>
+                <h2> :: What's your favorite place to be? ::</h2>
                 
-                <form action="mailto:adrianna.valdivia@gmail.com">
-                <p>
-                    <i></i>
-                </p>
+                <form action="/blog/" method="POST">
+
 
                 <p>
-                    <i>Write your message below:</i>
+                    <i></i>
+                    Title:
+                    <br>
+                    <textarea 
+                    name="title" 
+                    rows="" 
+                    cols="60"></textarea>
                 </p>
-                <textarea 
+                    Description: 
+                    <br>
+                    <textarea 
                     name="body" 
                     rows="10" 
                     cols="60"></textarea>
 
                 <p>
-                    <input type="submit" name="send" value="Send Your Message"/>
+                    
+                    <form action="demo_form.asp">
+                    <input type="file" name="pic" accept="image/*">
+                 
+</form>
+
+                    <input rows = type="submit" name="send" value="Post"/>
                     <input type="submit" name="cancel" value="Cancel"/>
+            
                 </p>
                 </form>
+                
+                
+</form>
                  
                  
                 </div>
