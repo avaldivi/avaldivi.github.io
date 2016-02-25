@@ -33,10 +33,10 @@
       file.write("<h1>
                     #{h1} 
                   </h1>
+                  <img src='#{img}' height='300' width='300'/>
                   <br> 
                   <p> #{p} </p> 
-                  <br>
-                  <img src='#{img}' height='40' width='40'/>")
+                  <br>")
       puts "Continue to write another post, or type 'no' to exit"
       again = gets.chomp
       if again == "no"
