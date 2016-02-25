@@ -1,20 +1,20 @@
 
 
-  f = File.new('blog.html', 'a')
-    f.write("<html><head><title>Assignment 3</title></head><body>")
+  file = File.new('blog.html', 'a')
+    file.write("<html> <head> <link rel = 'stylesheet' type = 'text/css' href = '/css/cssfile.css'> <title> Where's your favorite place to be ? </title> </head> <body>")
     loop = true
     while loop do
-      puts "Please enter a title for your post: "
+      puts "What will be the title of your post? "
       h1 = gets.chomp
-      puts "Please enter the text of your blog post: "
+      puts "Please begin describe why this is your favorite place. "
       p = gets.chomp
-      puts "Please enter the URL of an image to go with your post: "
+      puts "Enter a URL Link that relates with your favorite place"
       img = gets.chomp
-      f.write("<h1>#{h1}</h1><p>#{p}</p><img src='#{img}'>")
-      puts "Would you like to create another post? Type 'no' to exit"
+      file.write("<h1> #{h1} </h1> <br> <p> #{p} </p> <br> <img src='#{img}' height='40' width='40'>")
+      puts "Continue to write another post, or type 'no' to exit"
       again = gets.chomp
       if again == "no"
         loop = false
       end
     end
-    f.write("</body></html>")
+    file.write("</body> </html>")
