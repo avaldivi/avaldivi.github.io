@@ -1,7 +1,7 @@
 
             body
             {
-                background-color: #00CED1;
+                background-color: #7C8282;
             }
             ul li {
                 background-color: gray;
@@ -13,7 +13,7 @@
             .container {
                 margin: 0 auto;
                 background-color: white;
-                border: 12px solid gray;
+                border: 12px #30D7E0;
                 border-radius: 10px;
                 margin-top: 30px;
                 margin-left: 30px;
