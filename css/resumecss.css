@@ -13,6 +13,18 @@
                 color:#3EA7AD;
                 font-weight: bold;
             }
+            .container a {
+                color:gray;
+                text-align: right;
+            }
+            .container a:hover {
+                background-color: gray;
+                color:white;
+            }
+            .container h3 h4 {
+                 text-align: center;
+            }
+            
             ul li {
                 background-color: gray;
                 display:inline;
