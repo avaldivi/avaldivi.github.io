@@ -2,7 +2,14 @@
             body
             {
                 background-color: #7C8282;
+                font-family: monaco;
             }
+            
+            h1 {
+                color:#3EA7AD;
+            }
+            
+        
             ul li {
                 background-color: gray;
                 display:inline;
