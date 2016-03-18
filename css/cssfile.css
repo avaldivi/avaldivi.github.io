@@ -37,6 +37,7 @@
             }
             
             .cssmenu li {
+                 display: inline;
                  float: left;
             }
             
