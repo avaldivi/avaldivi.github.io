@@ -21,27 +21,31 @@
                 margin-bottom: 30px;
             }
                 
-            .cssmenu a {
-                display: block;
-                font-size: 15px;
-                font-weight: bold;
-                color: white;
-                padding: 20px 10px;
-                
-            }
             
-            .cssmenu a:hover {
+            .cssmenu ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            .cssmenu li {
+                float: left;
+            }
+
+            .cssmenu li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            /* Change the link color to white bkg on hover */
+            .cssmenu li a:hover {
                 background-color: white;
                 color: #3EA7AD;
-                text-transform: uppercase;
             }
-            
-            .cssmenu li {
-                 display: inline;
-                 float: left;
-            }
-            
-            
             
 
  
