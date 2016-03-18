@@ -22,17 +22,25 @@
             }
                 
             .cssmenu a {
+                display: block;
                 font-size: 15px;
                 font-weight: bold;
                 color: white;
-                text-transform: uppercase;
                 padding: 20px 10px;
                 
+            }
+            
+            .cssmenu a:hover {
+                background-color: white;
+                color: #3EA7AD;
+                text-transform: uppercase;
             }
             
             .cssmenu li {
                  display: inline;
             }
+            
+            
             
 
  
