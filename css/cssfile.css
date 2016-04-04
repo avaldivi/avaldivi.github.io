@@ -28,7 +28,7 @@
             }
                 
             
-            .cssmenu ul {
+            .navbar-header ul {
                 background-color: black;
                 list-style-type: none;
                 margin: 0;
@@ -36,11 +36,8 @@
                 overflow: hidden;
             }
 
-            .cssmenu li {
-                float: left;
-            }
 
-            .cssmenu li a {
+            .navbar-header li a {
                 display: block;
                 color: white;
                 text-align: center;
@@ -49,7 +46,7 @@
             }
 
             /* Change the link color to white bkg on hover */
-            .cssmenu li a:hover {
+            .navbar-header li a:hover {
                 color: #3EA7AD;
             }
             
