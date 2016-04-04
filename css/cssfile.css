@@ -28,7 +28,7 @@
             }
                 
             
-            .navbar-header ul {
+            .navbar-custom ul {
                 background-color: black;
                 list-style-type: none;
                 margin: 0;
@@ -37,7 +37,7 @@
             }
 
 
-            .navbar-header li a {
+            .navbar-custom li a {
                 display: block;
                 color: white;
                 text-align: center;
@@ -46,7 +46,7 @@
             }
 
             /* Change the link color to white bkg on hover */
-            .navbar-header li a:hover {
+            .navbar-custom li a:hover {
                 color: #3EA7AD;
             }
             
