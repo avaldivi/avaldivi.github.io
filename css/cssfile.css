@@ -30,6 +30,7 @@
                 
             
             .cssmenu ul {
+                background-color: gray;
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
@@ -50,7 +51,6 @@
 
             /* Change the link color to white bkg on hover */
             .cssmenu li a:hover {
-                background-color: white;
                 color: #3EA7AD;
             }
             
